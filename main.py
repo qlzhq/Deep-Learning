@@ -8,7 +8,7 @@ from PIL import Image
 from sklearn.metrics import recall_score, mean_squared_error
 
 
-# 简单的 ConvNet
+# ConvNet
 class SimpleConvNet:
     def __init__(self, input_dim=(3, 32, 32),
                  conv_param={'filter_num': 32, 'filter_size': 3, 'pad': 1, 'stride': 1},
